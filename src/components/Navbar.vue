@@ -1,20 +1,25 @@
 <template>
 <div>
-  <b-navbar toggleable="lg" type="dark" variant="danger">
-    <b-navbar-brand href="#">{{title}}</b-navbar-brand>
+  <b-navbar toggleable="lg" type="dark" variant="danger" fixed="top">
+    <b-navbar-brand>
+      <router-link class="text-white" to="/">{{title}}</router-link>
+    </b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
         <b-nav-item>
-            <router-link class="text-white px-3" to="/item1">item1</router-link>
+            <router-link class="text-white px-3" to="/about">About</router-link>
         </b-nav-item>
         <b-nav-item>
-            <router-link class="text-white px-3" to="/item2">item2</router-link>
+            <router-link class="text-white px-3" to="/skill">Skill</router-link>
         </b-nav-item>
         <b-nav-item>
-            <router-link class="text-white px-3" to="/item3">item3</router-link>
+            <router-link class="text-white px-3" to="/works">Works</router-link>
+        </b-nav-item>
+        <b-nav-item>
+            <router-link class="text-white px-3" to="/contact">Contact</router-link>
         </b-nav-item>
       </b-navbar-nav>
 

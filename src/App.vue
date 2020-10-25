@@ -1,18 +1,19 @@
 <template>
   <div id="app">
     <Navbar></Navbar>
-    <img src="./assets/logo.png">
     <router-view/>
   </div>
 </template>
 
 <script>
 import Navbar from './components/Navbar'
+import Home from './components/Home'
 
 export default {
   name: 'App',
   components: {
-    Navbar
+    Navbar,
+    Home
   },
 }
 </script>
@@ -22,7 +23,7 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  /* text-align: center; */
+  /* color: #2c3e50; */
 }
 </style>
