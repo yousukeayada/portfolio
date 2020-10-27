@@ -1,6 +1,6 @@
 <template>
 <div>
-  <b-navbar toggleable="lg" type="dark" variant="danger" fixed="top">
+  <b-navbar toggleable="sm" type="dark" variant="danger" fixed="top">
     <b-navbar-brand>
       <router-link class="text-white" to="/">{{title}}</router-link>
     </b-navbar-brand>
@@ -17,6 +17,9 @@
         </b-nav-item>
         <b-nav-item>
             <router-link class="text-white px-3" to="/works">Works</router-link>
+        </b-nav-item>
+        <b-nav-item>
+            <router-link class="text-white px-3" to="/link">Link</router-link>
         </b-nav-item>
         <b-nav-item>
             <router-link class="text-white px-3" to="/contact">Contact</router-link>
