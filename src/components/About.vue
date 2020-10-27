@@ -23,7 +23,7 @@ div {
     color: white;
 }
 .myicon {
-    background-image: url("../../static/img/myicon.jpg");
+    background-image: url("https://yousukeayada.github.io/general/assets/img/myicon.jpg");
     border-radius: 50%;
     background-position: 50% 50%;
     width: 200px;
