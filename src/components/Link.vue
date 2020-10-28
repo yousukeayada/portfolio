@@ -24,9 +24,13 @@ div {
 }
 a {
     color: white;
-    border-radius: 30px;
+    border-radius: 10px;
     background: #474848;
     box-shadow: 5px 5px 10px #3c3d3d, 
                 -5px -5px 10px #525353;
+}
+a:hover {
+    text-decoration: none;
+    background-color: #525353;
 }
 </style>
