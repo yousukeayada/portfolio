@@ -4,7 +4,7 @@
         <div class="works my-5">
             <b-card
                 title="ポートフォリオ"
-                img-src="https://picsum.photos/600/300/?image=25"
+                img-src="https://yousukeayada.github.io/portfolio/static/img/home.jpg"
                 img-alt="Image"
                 img-top
                 tag="article"
@@ -20,7 +20,7 @@
 
             <b-card
                 title="Discord 音楽 Bot"
-                img-src="/static/img/discord-music-bot.png"
+                img-src="https://yousukeayada.github.io/portfolio/static/img/discord-music-bot.png"
                 img-alt="Image"
                 img-top
                 tag="article"
@@ -36,7 +36,7 @@
 
             <b-card
                 title="Todo 管理＆通知アプリ"
-                img-src="/static/img/spring-todo.png"
+                img-src="https://yousukeayada.github.io/portfolio/static/img/spring-todo.png"
                 img-alt="Image"
                 img-top
                 tag="article"
@@ -52,7 +52,7 @@
 
             <b-card
                 title="High Talk"
-                img-src="/static/img/high-talk.png"
+                img-src="https://yousukeayada.github.io/portfolio/static/img/high-talk.png"
                 img-alt="Image"
                 img-top
                 tag="article"
@@ -63,6 +63,7 @@
                 KDG HACKS 2020 で制作した、話題を提供してくれる Web 会議アプリ&Discord Bot。最優秀賞をいただきました。
                 </b-card-text>
 
+                <a class="p-2" href="https://drive.google.com/file/d/1zC55XYd7tvirQ7XZJhg_7OFgSKl_Sini/view?usp=sharing" target="_blank">Slide</a>
             </b-card>
         </div>
     </div>
