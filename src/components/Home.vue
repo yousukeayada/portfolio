@@ -7,26 +7,13 @@
 
 <script>
 export default {
-    data() {
-      return {
-        slide: 0,
-        sliding: null
-      }
-    },
-    methods: {
-      onSlideStart(slide) {
-        this.sliding = true
-      },
-      onSlideEnd(slide) {
-        this.sliding = false
-      }
-    }
-  }
+  
+}
 </script>
 
 <style scoped>
 div {
-  background: url("/static/img/home.jpg") center no-repeat;
+  background: url("https://yousukeayada.github.io/portfolio/static/img/home.jpg") center no-repeat;
   background-size: cover;
   background-color: rgba(255,255,255,0.1);
   background-blend-mode: lighten;
