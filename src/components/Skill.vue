@@ -44,6 +44,9 @@ export default {
 </script>
 
 <style scoped>
+div {
+    font-family: Times, serif;
+}
 .skill {
     display: flex;
     flex-flow: row wrap;

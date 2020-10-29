@@ -17,6 +17,7 @@ export default {
 <style scoped>
 div {
     color: white;
+    font-family: Times, serif;
 }
 .link {
     display: flex;

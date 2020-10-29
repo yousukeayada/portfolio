@@ -20,6 +20,7 @@ export default {
 
 <style scoped>
 div {
+    font-family: Times, serif;
     color: white;
 }
 .myicon {

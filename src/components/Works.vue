@@ -75,6 +75,9 @@ export default {
 </script>
 
 <style scoped>
+div {
+    font-family: Times, serif;
+}
 .works {
     display: flex;
     flex-flow: row wrap;

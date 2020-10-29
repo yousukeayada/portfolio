@@ -15,6 +15,9 @@ export default {
 </script>
 
 <style scoped>
+div {
+    font-family: Times, serif;
+}
 .contact {
     border-radius: 20px;
     background: #474848;
