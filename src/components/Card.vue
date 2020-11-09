@@ -31,12 +31,16 @@ export default {
 <style scoped>
 #card {
     max-width: 300px;
-    color: white;
+    color: black;
     word-break: break-all;
-    border-radius: 30px;
+    /* border-radius: 30px;
     background: #474848;
     box-shadow: 5px 5px 10px #3c3d3d, 
-                -5px -5px 10px #525353;
+                -5px -5px 10px #525353; */
+    border-radius: 30px;
+    background: #e6e6e6;
+    box-shadow:  5px 5px 10px #c4c4c4, 
+                 -5px -5px 10px #ffffff;
 }
 .star5_rating{
     position: relative;

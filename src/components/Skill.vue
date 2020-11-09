@@ -1,6 +1,6 @@
 <template>
 <div>
-    <h1 class="mt-5 p-5 text-white text-center"><img src="../../static/img/skill.png">Skill</h1>
+    <h1 class="mt-5 p-5 text-center"><span class="material-icons large">description</span>Skill</h1>
     <h2 class="m-5 p-3 text-success text-center">Language</h2>
     <div class="skill">
         <Card tech='C' text='大学の講義で扱いました。' rate='2'></Card>
@@ -24,7 +24,7 @@
         <Card tech='GCP' text='a little' rate='2'></Card>
     </div>
 
-    <h2 class="m-5 p-3 text-light text-center">Tool</h2>
+    <h2 class="m-5 p-3 text-center">Tool</h2>
     <div class="skill">
         <Card tech='Git' text='基本的な操作はできます。チームでの使用経験はまだ浅いです。' rate='2'></Card>
         <Card tech='VS Code' text='a little' rate='2'></Card>
@@ -47,15 +47,22 @@ export default {
 div {
     font-family: Times, serif;
 }
+.material-icons.large {
+    font-size: 45px;
+}
 .skill {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
 }
 h2 {
-    border-radius: 30px;
+    /* border-radius: 30px;
     background: #474848;
     box-shadow: inset 5px 5px 10px #3c3d3d, 
-                inset -5px -5px 10px #525353;
+                inset -5px -5px 10px #525353; */
+    border-radius: 20px;
+    background: #e6e6e6;
+    box-shadow: inset 5px 5px 10px #c4c4c4, 
+                inset -5px -5px 10px #ffffff;
 }
 </style>
