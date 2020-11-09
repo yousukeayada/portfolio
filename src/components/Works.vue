@@ -1,6 +1,6 @@
 <template>
     <div class="mt-5 p-5">
-        <h1 class="text-white text-center"><span class="material-icons large">work_outline</span>Works</h1>
+        <h1 class="text-center"><span class="material-icons large">work_outline</span>Works</h1>
         <div class="works my-5">
             <b-card
                 title="ポートフォリオ"
@@ -9,10 +9,10 @@
                 img-top
                 tag="article"
                 style="max-width: 18rem;"
-                class="work-card m-2 p-3 text-white"
+                class="work-card m-2 p-3"
             >
                 <b-card-text>
-                このサイトです。Vue.js を使って開発しました。
+                このサイトです。Vue.js を使って開発しました。ニューモーフィズムを取り入れてみました。
                 </b-card-text>
 
                 <a class="p-2" href="https://github.com/yousukeayada/portfolio" target="_blank">GitHub</a>
@@ -25,7 +25,7 @@
                 img-top
                 tag="article"
                 style="max-width: 18rem;"
-                class="work-card m-2 p-3 text-white"
+                class="work-card m-2 p-3"
             >
                 <b-card-text>
                 Discord で通話相手と音楽を一緒に聴ける Bot です。
@@ -41,7 +41,7 @@
                 img-top
                 tag="article"
                 style="max-width: 18rem;"
-                class="work-card m-2 p-3 text-white"
+                class="work-card m-2 p-3"
             >
                 <b-card-text>
                 Todo を管理し、締切の近いものを Discord に通知してくれるアプリ。
@@ -57,7 +57,7 @@
                 img-top
                 tag="article"
                 style="max-width: 18rem;"
-                class="work-card m-2 p-3 text-white"
+                class="work-card m-2 p-3"
             >
                 <b-card-text>
                 KDG HACKS 2020 で制作した、話題を提供してくれる Web 会議アプリ&Discord Bot。最優秀賞をいただきました。
@@ -88,20 +88,28 @@ div {
     justify-content: center;
 }
 .work-card {
-    border-radius: 30px;
+    /* border-radius: 30px;
     background: #474848;
     box-shadow: 5px 5px 10px #3c3d3d, 
-                -5px -5px 10px #525353;
+                -5px -5px 10px #525353; */
+    border-radius: 10px;
+    background: #e6e6e6;
+    box-shadow:  5px 5px 10px #c4c4c4, 
+                 -5px -5px 10px #ffffff;
 }
 a {
-    color: white;
+    color: black;
     text-decoration: none;
-    border-radius: 10px;
+    /* border-radius: 10px;
     background: #474848;
     box-shadow: 5px 5px 10px #3c3d3d, 
-                -5px -5px 10px #525353;
+                -5px -5px 10px #525353; */
+    border-radius: 5px;
+    background: #e6e6e6;
+    box-shadow:  5px 5px 10px #c4c4c4, 
+                 -5px -5px 10px #ffffff;
 }
 a:hover {
-    background-color: #525353;
+    background-color: #a2a3a3;
 }
 </style>

@@ -19,9 +19,12 @@ div {
   background-blend-mode: lighten;
   font-family: Times, serif;
   color: gray;
-  border-radius: 10px;
-  /* background: #474848; */
+  /* border-radius: 10px;
+  background: #474848;
   box-shadow:  8px 8px 16px #3c3d3d, 
-              -8px -8px 16px #525353;
+              -8px -8px 16px #525353; */
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #c4c4c4, 
+              -5px -5px 10px #ffffff;
 }
 </style>
