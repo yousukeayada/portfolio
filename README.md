@@ -7,3 +7,13 @@
 ---
 - ~~[アイコンはこちらのものを使用](https://icooon-mono.com/)~~
 - マテリアルアイコンに変更
+
+
+
+```bash
+# 開発
+npm run dev
+
+# リリース
+npm run build
+```
