@@ -1,6 +1,6 @@
 <template>
     <div class="mt-5 p-5">
-        <h1 class="mb-5 text-center"><img src="../../static/img/link.png">Link</h1>
+        <h1 class="mb-5 text-center"><span class="material-icons large">link</span>Link</h1>
         <div class="link">
         <a class="m-3 p-5" href="https://github.com/yousukeayada/" target="_blank">GitHub</a>
         <a class="m-3 p-5" href="https://qiita.com/ysk0832/" target="_blank">Qiita</a>
@@ -18,6 +18,9 @@ export default {
 div {
     color: white;
     font-family: Times, serif;
+}
+.material-icons.large {
+    font-size: 45px;
 }
 .link {
     display: flex;

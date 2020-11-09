@@ -1,6 +1,6 @@
 <template>
     <div class="mt-5 p-5">
-        <h1 class="text-white text-center"><img src="../../static/img/contact.png">Contact</h1>
+        <h1 class="text-white text-center"><span class="material-icons large">email</span>Contact</h1>
         <div class="contact m-5 p-3 text-white text-center">
             <p>Mail: yousukeayada@gmail.com</p>
             <!-- <a href="https://twitter.com/youme0948" target="_blank">Twitter: @youme0948</a> -->
@@ -17,6 +17,9 @@ export default {
 <style scoped>
 div {
     font-family: Times, serif;
+}
+.material-icons.large {
+    font-size: 45px;
 }
 .contact {
     border-radius: 20px;

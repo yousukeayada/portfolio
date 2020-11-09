@@ -1,6 +1,6 @@
 <template>
     <div class="mt-5 p-5">
-        <h1 class="mb-5 text-center"><img src="../../static/img/about.png">About</h1>
+        <h1 class="mb-5 text-center"><span class="material-icons large">person</span>About</h1>
         <!-- <img src="../../static/img/myicon.jpg"><br> -->
         <div class="myicon"></div>
         <table class="mt-5 table table-hover table-borderless text-center">
@@ -22,6 +22,9 @@ export default {
 div {
     font-family: Times, serif;
     color: white;
+}
+.material-icons.large {
+    font-size: 45px;
 }
 .myicon {
     background-image: url("https://yousukeayada.github.io/general/assets/img/myicon.jpg");

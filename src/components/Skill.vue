@@ -1,6 +1,6 @@
 <template>
 <div>
-    <h1 class="mt-5 p-5 text-white text-center"><img src="../../static/img/skill.png">Skill</h1>
+    <h1 class="mt-5 p-5 text-white text-center"><span class="material-icons large">description</span>Skill</h1>
     <h2 class="m-5 p-3 text-success text-center">Language</h2>
     <div class="skill">
         <Card tech='C' text='大学の講義で扱いました。' rate='2'></Card>
@@ -46,6 +46,9 @@ export default {
 <style scoped>
 div {
     font-family: Times, serif;
+}
+.material-icons.large {
+    font-size: 45px;
 }
 .skill {
     display: flex;

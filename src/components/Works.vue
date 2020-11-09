@@ -1,6 +1,6 @@
 <template>
     <div class="mt-5 p-5">
-        <h1 class="text-white text-center"><img src="../../static/img/works.png">Works</h1>
+        <h1 class="text-white text-center"><span class="material-icons large">work_outline</span>Works</h1>
         <div class="works my-5">
             <b-card
                 title="ポートフォリオ"
@@ -78,6 +78,9 @@ export default {
 <style scoped>
 div {
     font-family: Times, serif;
+}
+.material-icons.large {
+    font-size: 45px;
 }
 .works {
     display: flex;

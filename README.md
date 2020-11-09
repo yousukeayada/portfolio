@@ -5,4 +5,5 @@
 - Vue.js
 
 ---
-- [アイコンはこちらのものを使用](https://icooon-mono.com/)
+- ~~[アイコンはこちらのものを使用](https://icooon-mono.com/)~~
+- マテリアルアイコンに変更
