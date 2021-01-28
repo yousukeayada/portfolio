@@ -1,6 +1,6 @@
 <template>
     <div>
-  <b-jumbotron header="Welcome" lead="ここはユーのポートフォリオサイトです。">
+  <b-jumbotron header="Welcome" lead="ここは yousukeayada のポートフォリオサイトです。">
   </b-jumbotron>
   </div>
 </template>

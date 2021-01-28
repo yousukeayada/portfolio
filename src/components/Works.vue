@@ -65,6 +65,22 @@
 
                 <a class="p-2" href="https://drive.google.com/file/d/1zC55XYd7tvirQ7XZJhg_7OFgSKl_Sini/view?usp=sharing" target="_blank">Slide</a>
             </b-card>
+
+            <b-card
+                title="Lunch Link Learning"
+                img-src="https://yousukeayada.github.io/portfolio/static/img/lunch-link-learning.jpg"
+                img-alt="Image"
+                img-top
+                tag="article"
+                style="max-width: 18rem;"
+                class="work-card m-2 p-3"
+            >
+                <b-card-text>
+                JPHACKS 2020 で制作した、大学生や大学教員向けの食事マッチングアプリ。
+                </b-card-text>
+
+                <a class="p-2" href="https://github.com/jphacks/E_2010" target="_blank">GitHub</a>
+            </b-card>
         </div>
     </div>
 </template>
