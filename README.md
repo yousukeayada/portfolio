@@ -1,5 +1,6 @@
 # portfolio
-- https://yousukeayada.github.io/portfolio/
+- 制作物などをまとめたポートフォリオ
+- URL：https://yousukeayada.github.io/portfolio/
 
 ## フレームワーク
 - Vue.js
@@ -17,6 +18,6 @@
 # 開発
 npm run dev
 
-# リリース
+# リリース（docs/ に生成）
 npm run build
 ```
