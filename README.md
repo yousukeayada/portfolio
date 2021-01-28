@@ -1,8 +1,11 @@
 # portfolio
 - https://yousukeayada.github.io/portfolio/
 
-## 使用技術
+## フレームワーク
 - Vue.js
+
+## デザイン
+- ニューモーフィズム 
 
 ---
 - ~~[アイコンはこちらのものを使用](https://icooon-mono.com/)~~
